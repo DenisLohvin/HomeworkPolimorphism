@@ -27,7 +27,7 @@ public class Main {
         Collaborator collaborator = new Collaborator();
         Participant cat = new Cat("Leopold", 200, 2);
         Participant human = new Human("Denis", 751, 4);
-        Participant robot = new Robot("Terminator", 853, 8);
+        Participant robot = new Robot("Terminator", 853, 12);
         Participant[] participants = {cat, human, robot};
         Barrier sprint = new Sprint(50);
         Barrier wall = new Wall(11);

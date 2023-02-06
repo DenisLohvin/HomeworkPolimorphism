@@ -1,7 +1,7 @@
 package Polimorphism.figures;
 
 public class Circle implements Figure {
-    private double radius;
+    private final double radius;
 
     public Circle(double radius) {
         this.radius = radius;

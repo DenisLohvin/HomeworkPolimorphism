@@ -1,9 +1,9 @@
 package Polimorphism.participantsBarriars.partisipants;
 
 public class Robot implements Participant {
-    private  String name;
-    private int maxRunLength;
-    private int maxJumpHeight;
+    private final String name;
+    private final int maxRunLength;
+    private final int maxJumpHeight;
 
     public Robot(String name, int maxRunLength, int maxJumpHeight) {
         this.name = name;

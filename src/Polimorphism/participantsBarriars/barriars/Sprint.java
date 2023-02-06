@@ -1,7 +1,7 @@
 package Polimorphism.participantsBarriars.barriars;
 
 public class Sprint implements Barrier {
-    private int length;
+    private final int length;
 
     public Sprint(int length) {
         this.length = length;

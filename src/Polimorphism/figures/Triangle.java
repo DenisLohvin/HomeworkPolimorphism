@@ -1,9 +1,9 @@
 package Polimorphism.figures;
 
 public class Triangle implements Figure {
-    private double aSide;
-    private double bSide;
-    private double cSide;
+    private final double aSide;
+    private final double bSide;
+    private final double cSide;
 
     public Triangle(double aSide, double bSide, double cSide) {
         this.aSide = aSide;
